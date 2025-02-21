@@ -14,6 +14,9 @@ importers:
       '@plumeria/next':
         specifier: ^0.3.0
         version: 0.3.0
+      firemotion:
+        specifier: ^2.0.2
+        version: 2.0.2
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
@@ -799,6 +802,9 @@ packages:
   find-up@5.0.0:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
+
+  firemotion@2.0.2:
+    resolution: {integrity: sha512-xBR4mLeC+X2mdfUG8bmkBzhRe6uLs+NEXTSwEVy1IPsKHBmw/7yIJqzKTwGuDnI0WoXguZlm83OYF+MdmOz9gQ==}
 
   flat-cache@4.0.1:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
@@ -2036,6 +2042,8 @@ snapshots:
     dependencies:
       locate-path: 6.0.0
       path-exists: 4.0.0
+
+  firemotion@2.0.2: {}
 
   flat-cache@4.0.1:
     dependencies:
