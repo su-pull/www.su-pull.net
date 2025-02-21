@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import generateSEOData from 'lib/generateSEOData';
 import { css, cx } from '@plumeria/core';
 import { JSX } from 'react';
+import { Fade } from 'components/Fade';
 
 const styles = css.create({
   name: {
@@ -62,7 +63,9 @@ export const metadata: Metadata = generateSEOData({ title: 'Refirst' });
 const Page = (): JSX.Element => {
   return (
     <>
-      <h1 className={styles.name}>Refirst</h1>
+      <Fade>
+        <h1 className={styles.name}>Refirst</h1>
+      </Fade>
       <p>
         I&apos;ve creates ideas and designs software, and currently living in JPN. like work on Ever since I grew up, I
         have had a wide interest in the world of Audio, Engineering and Information Technology.
