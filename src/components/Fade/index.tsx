@@ -7,13 +7,13 @@ const styles = css.create({
   base: {
     filter: 'blur(0px)',
     opacity: 1,
-    transition: 'all 0.8s',
+    transition: 'all 0.4s',
     transform: 'none',
   },
   entry: {
     filter: 'blur(4px)',
     opacity: 0,
-    transform: 'translateY(4px)',
+    transform: 'translateY(-4px)',
   },
 });
 
